@@ -1,16 +1,17 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using MyMirror_classes;
 
 namespace MyMirror_testing
 {
     [TestClass]
-    public class tstReview
+    public class tstStock
     {
         [TestMethod]
         public void InstanceOK()
         {
-            clsReview AReview = new clsReview();
-            Assert.IsNotNull(AReview);
+            clsStock AStock = new clsStock();
+            Assert.IsNotNull(AStock);
         }
     }
 }
