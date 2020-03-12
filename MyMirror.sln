@@ -8,6 +8,7 @@ EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MyMirror-frontoffice", "MyMirror-frontoffice\", "{925CB920-F160-4F4D-8603-359746A17408}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		ProjectReferences = "{c4476ffb-321e-4652-b58a-4ca4b6685f3d}|MyMirror-classes.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_26981"
 		Debug.AspNetCompiler.PhysicalPath = "MyMirror-frontoffice\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_26981\"
