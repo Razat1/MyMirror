@@ -10,6 +10,8 @@ public partial class AStock : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+      
+
     }
 
 
@@ -18,8 +20,11 @@ public partial class AStock : System.Web.UI.Page
         clsStock Astock = new clsStock();
 
         Astock.StockDes = txtDes.Text;
-        Astock.Price = txtPrice.Text;
-        Astock.Quantity = txtQuantity.Text;
+        Astock.Price = Convert.ToInt32(txtPrice.Text);
+        Astock.Quantity = Convert.ToInt32(txtQuantity.Text);
+        Astock.DateAdded = Convert.ToDateTime(txtDateAdded.Text);
+        Session["AStock"] = Astock;
+        Response.Write("StockViewer.aspx");
 
 
     }
