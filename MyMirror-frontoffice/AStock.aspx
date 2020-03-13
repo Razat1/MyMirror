@@ -11,17 +11,27 @@
     <form id="formStock" runat="server">
         <div>
 
-          StockNo: <input type="text" name="StockNo"><br>
-         StockDes: <input type="text" name="StockDescription"><br>
-          Quantity	: <input type="text" name="Quantity"><br>
-         DateAdded: <input type="date" name="DateAdded"><br>
-         Price: <input type="text" name="price"><br>
+            <br>
+         StockDes: 
+            <asp:TextBox ID="txtDes" runat="server"></asp:TextBox>
+            <br>
+          Quantity	: 
+            <asp:TextBox ID="txtQuantity" runat="server"></asp:TextBox>
+            <br>
+         DateAdded: 
+            <asp:TextBox ID="txtDateAdded" runat="server"></asp:TextBox>
+            <br>
+         Price: 
+            <asp:TextBox ID="txtPrice" runat="server"></asp:TextBox>
+            <br>
             <br>
          
          Available:<input type="checkbox" name="Available" /><br>
             <br>
-         <input type="button" value="OK" id="btnok"><input type="button" value="Cancel">&nbsp;
+            &nbsp;
         </div>
+        <asp:Button ID="btnSubmit" runat="server" OnClick="btnSubmit_Click" OnClientClick="Submit_Ok" Text="submit" />
+        <asp:Button ID="btnCancel" runat="server" Text="cancel" />
     </form>
 </body>
 
