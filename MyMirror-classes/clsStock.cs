@@ -77,14 +77,24 @@ namespace MyMirror_classes
 
         public bool Find(int stockNo)
         {
-            mStockNo = 21;
-            mDateAdded = Convert.ToDateTime("2016/11/11");
-            mStockDes = "Test Description";
-            mStockQuantity = 1;
-            mPrice = 11;
-            mAvailable = true;
+            clsDataConnection DB = new clsDataConnection();
+            DB.AddParameter("@StockNo", stockNo);
+            DB.Execute("sproc_tblStock_SelectAll");
+            if (DB.Count == 1)
+            {
+                mStockNo = Convert.ToInt32(DB.DataTable.Rows[0]["StockNo"]);
+                mStockDes = Convert.ToString(DB.DataTable.Rows[0]["StockDescription"]);
+                mStockQuantity = Convert.ToInt32(DB.DataTable.Rows[0]["Quantity"]);
+                mDateAdded = Convert.ToDateTime(DB.DataTable.Rows[0]["DateAdded"]);
+                mPrice = Convert.ToInt32(DB.DataTable.Rows[0]["Price"]);
+                mAvailable = Convert.ToBoolean(DB.DataTable.Rows[0]["Available"]);
+                return true;
+            }
+            else {
+                return false;
+            }
 
-            return true;
+   
         }
     }
 }
