@@ -28,4 +28,22 @@ public partial class AStock : System.Web.UI.Page
 
 
     }
+
+    protected void btnFind_Click(object sender, EventArgs e)
+    {
+        clsStock Astock = new clsStock();
+        Int32 AstockNo;
+        Boolean Found = false;
+        AstockNo = Convert.ToInt32(txtStockNo.Text);
+        Found = Astock.Find(AstockNo);
+        if (Found == true) {
+            txtStockNo.Text = Astock.StockNo.ToString();
+            txtQuantity.Text = Astock.Quantity.ToString();
+            txtDateAdded.Text = Astock.DateAdded.ToString();
+            txtPrice.Text = Astock.Price.ToString();
+            txtDes.Text = Astock.StockDes;
+            
+        }
+
+    }
 }

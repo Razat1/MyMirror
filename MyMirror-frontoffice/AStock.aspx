@@ -11,6 +11,10 @@
     <form id="formStock" runat="server">
         <div>
 
+            StockNo:
+            <asp:TextBox ID="txtStockNo" runat="server"></asp:TextBox>
+            <asp:Button ID="btnFind" runat="server" OnClick="btnFind_Click" Text="Find" />
+
             <br>
          StockDes: 
             <asp:TextBox ID="txtDes" runat="server"></asp:TextBox>

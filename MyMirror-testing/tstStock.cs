@@ -103,7 +103,7 @@ namespace MyMirror_testing
             clsStock AStock = new clsStock();
             //create some test data to assign to the property
             Boolean Found = false;
-            Int32 StockNo = 1;
+            Int32 StockNo = 4;
             //assign the data to the property
             Found = AStock.Find(StockNo);
             //test to see that the two values are the same
@@ -117,11 +117,11 @@ namespace MyMirror_testing
             //create some test data to assign to the property
             Boolean Found = false;
             bool OK = true;
-            Int32 StockNo = 21;
+            Int32 StockNo = 4;
             //assign the data to the property
             Found = AStock.Find(StockNo);
             //test to see that the two values are the same
-            if (AStock.StockNo !=21) {
+            if (AStock.StockNo !=4) {
                 OK = false;
             }
             Assert.IsTrue(OK);
@@ -137,11 +137,11 @@ namespace MyMirror_testing
             //boolean variable to record if data is OK (assume it is)
             Boolean OK = true;
             //create some test data to use with the method
-            Int32 StockNo = 21;
+            Int32 StockNo = 4;
             //invoke the method
             Found = AStock.Find(StockNo);
             //check the property
-            if (AStock.DateAdded != Convert.ToDateTime("2016/11/11"))
+            if (AStock.DateAdded != Convert.ToDateTime("2006/06/11"))
             {
                 OK = false;
             }
@@ -159,11 +159,11 @@ namespace MyMirror_testing
             //boolean variable to record if data is OK (assume it is)
             Boolean OK = true;
             //create some test data to use with the method
-            Int32 StockNo = 21;
+            Int32 StockNo = 4;
             //invoke the method
             Found = AStock.Find(StockNo);
             //check the property
-            if (AStock.StockDes != "Test Description")
+            if (AStock.StockDes != "A big mirror")
             {
                 OK = false;
             }
@@ -181,7 +181,7 @@ namespace MyMirror_testing
             //boolean variable to record if data is OK (assume it is)
             Boolean OK = true;
             //create some test data to use with the method
-            Int32 StockNo = 21;
+            Int32 StockNo = 4;
             //invoke the method
             Found = AStock.Find(StockNo);
             //check the property
@@ -203,7 +203,7 @@ namespace MyMirror_testing
             //boolean variable to record if data is OK (assume it is)
             Boolean OK = true;
             //create some test data to use with the method
-            Int32 StockNo = 21;
+            Int32 StockNo =4;
             //invoke the method
             Found = AStock.Find(StockNo);
             //check the property
@@ -225,7 +225,7 @@ namespace MyMirror_testing
             //boolean variable to record if data is OK (assume it is)
             Boolean OK = true;
             //create some test data to use with the method
-            Int32 StockNo = 21;
+            Int32 StockNo = 4;
             //invoke the method
             Found = AStock.Find(StockNo);
             //check the property

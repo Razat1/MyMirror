@@ -78,7 +78,7 @@ namespace MyMirror_classes
         public bool Find(int stockNo)
         {
             clsDataConnection DB = new clsDataConnection();
-            DB.AddParameter("@StockNo", stockNo);
+            DB.AddParameter("@StockNo", StockNo);
             DB.Execute("sproc_tblStock_SelectAll");
             if (DB.Count == 1)
             {
