@@ -141,7 +141,7 @@ namespace MyMirror_testing
             //invoke the method
             Found = AStock.Find(StockNo);
             //check the property
-            if (AStock.DateAdded != Convert.ToDateTime("2006/06/11"))
+            if (AStock.DateAdded != Convert.ToDateTime("11/06/2006"))
             {
                 OK = false;
             }
