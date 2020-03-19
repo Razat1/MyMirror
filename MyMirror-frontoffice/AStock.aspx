@@ -34,7 +34,8 @@
             <br>
             &nbsp;
         </div>
-        <asp:Button ID="btnSubmit" runat="server" OnClick="btnSubmit_Click" OnClientClick="Submit_Ok" Text="submit" />
+        <asp:Button ID="btnSubmit" runat="server" OnClick="btnSubmit_Click" OnClientClick="Submit_OK" Text="Submit" />
+
         <asp:Button ID="btnCancel" runat="server" Text="cancel" />
     </form>
 </body>
