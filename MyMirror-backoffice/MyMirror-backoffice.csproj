@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DD317875-4D36-4CBE-90B7-9C3BF7E66BD6}</ProjectGuid>
+    <ProjectGuid>{499956DF-D948-4EAC-A1C3-042578994944}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>MyMirror_backoffice</RootNamespace>
     <AssemblyName>MyMirror-backoffice</AssemblyName>

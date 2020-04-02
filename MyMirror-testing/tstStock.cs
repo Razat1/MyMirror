@@ -12,8 +12,6 @@ namespace MyMirror_testing
         string Price = "11";
         string DateAdded = DateTime.Now.Date.ToString();
 
-
-
         [TestMethod]
         public void InstanceOK()
         {
@@ -42,9 +40,9 @@ namespace MyMirror_testing
             //create some test data to assign to the property
             string TestData = "Something for stock";
             //assign the data to the property
-            AStock.StockDes = TestData;
+            AStock.StockDescription = TestData;
             //test to see that the two values are the same
-            Assert.AreEqual(AStock.StockDes, TestData);
+            Assert.AreEqual(AStock.StockDescription, TestData);
         }
 
         [TestMethod]
@@ -125,7 +123,8 @@ namespace MyMirror_testing
             //assign the data to the property
             Found = AStock.Find(StockNo);
             //test to see that the two values are the same
-            if (AStock.StockNo != 4) {
+            if (AStock.StockNo != 4)
+            {
                 OK = false;
             }
             Assert.IsTrue(OK);
@@ -167,7 +166,7 @@ namespace MyMirror_testing
             //invoke the method
             Found = AStock.Find(StockNo);
             //check the property
-            if (AStock.StockDes != "A big mirror")
+            if (AStock.StockDescription != "A big mirror")
             {
                 OK = false;
             }
@@ -430,7 +429,7 @@ namespace MyMirror_testing
             clsStock AStock = new clsStock();
             //create some test data to assign to the property
             String Error = "";
-          
+
             string DateAdded = "This is not a Date";
             //assign the data to the property
             Error = AStock.Valid(StockDescription, Quantity, Price, DateAdded);
@@ -461,7 +460,7 @@ namespace MyMirror_testing
             clsStock AStock = new clsStock();
             //create some test data to assign to the property
             String Error = "";
-            Int32 TestDate= -1 ;
+            Int32 TestDate = -1;
             string Quantity = TestDate.ToString();
             //assign the data to the property
             Error = AStock.Valid(StockDescription, Quantity, Price, DateAdded);
@@ -664,7 +663,7 @@ namespace MyMirror_testing
             //create some test data to assign to the property
             String Error = "";
             Int32 TestDate = 100000;
-            string  Price = TestDate.ToString();
+            string Price = TestDate.ToString();
             //assign the data to the property
             Error = AStock.Valid(StockDescription, Quantity, Price, DateAdded);
             //test to see that the two values are the same
@@ -688,10 +687,5 @@ namespace MyMirror_testing
 
 
 
-
-
     }
-
-
 }
-

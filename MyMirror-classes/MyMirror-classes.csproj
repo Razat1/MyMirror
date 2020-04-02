@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C4476FFB-321E-4652-B58A-4CA4B6685F3D}</ProjectGuid>
+    <ProjectGuid>{5F35A986-48C9-4042-901C-6F146E1FAED1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MyMirror_classes</RootNamespace>

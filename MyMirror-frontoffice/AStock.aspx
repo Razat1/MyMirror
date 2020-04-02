@@ -4,7 +4,6 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
 </head>
 <body>
@@ -15,23 +14,23 @@
             <asp:TextBox ID="txtStockNo" runat="server"></asp:TextBox>
             <asp:Button ID="btnFind" runat="server" OnClick="btnFind_Click" Text="Find" />
 
-            <br>
+            <br/>
          StockDes: 
             <asp:TextBox ID="txtDes" runat="server"></asp:TextBox>
-            <br>
+            <br/>
           Quantity	: 
             <asp:TextBox ID="txtQuantity" runat="server"></asp:TextBox>
-            <br>
+            <br/>
          DateAdded: 
             <asp:TextBox ID="txtDateAdded" runat="server"></asp:TextBox>
-            <br>
+            <br/>
          Price: 
             <asp:TextBox ID="txtPrice" runat="server"></asp:TextBox>
-            <br>
-            <br>
+            <br/>
+            <br/>
          
-         Available:<input type="checkbox" name="Available" /><br>
-            <br>
+         Available:<input type="checkbox" name="Available" /><br/>
+            <br/>
             &nbsp;
         </div>
         <asp:Button ID="btnSubmit" runat="server" OnClick="btnSubmit_Click" OnClientClick="Submit_OK" Text="Submit" />
@@ -39,5 +38,4 @@
         <asp:Button ID="btnCancel" runat="server" Text="cancel" />
     </form>
 </body>
-
 </html>

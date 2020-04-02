@@ -1,0 +1,6 @@
+C:\Users\salim\OneDrive\Desktop\MyMirror\MyMirror-classes\bin\Debug\MyMirror-classes.dll
+C:\Users\salim\OneDrive\Desktop\MyMirror\MyMirror-classes\bin\Debug\MyMirror-classes.pdb
+C:\Users\salim\OneDrive\Desktop\MyMirror\MyMirror-classes\obj\Debug\MyMirror-classes.csprojAssemblyReference.cache
+C:\Users\salim\OneDrive\Desktop\MyMirror\MyMirror-classes\obj\Debug\MyMirror-classes.csproj.CoreCompileInputs.cache
+C:\Users\salim\OneDrive\Desktop\MyMirror\MyMirror-classes\obj\Debug\MyMirror-classes.dll
+C:\Users\salim\OneDrive\Desktop\MyMirror\MyMirror-classes\obj\Debug\MyMirror-classes.pdb

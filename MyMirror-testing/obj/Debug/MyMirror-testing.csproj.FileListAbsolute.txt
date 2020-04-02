@@ -1,0 +1,16 @@
+C:\Users\salim\OneDrive\Desktop\MyMirror\MyMirror-testing\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\salim\OneDrive\Desktop\MyMirror\MyMirror-testing\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\salim\OneDrive\Desktop\MyMirror\MyMirror-testing\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\salim\OneDrive\Desktop\MyMirror\MyMirror-testing\bin\Debug\MyMirror-testing.dll
+C:\Users\salim\OneDrive\Desktop\MyMirror\MyMirror-testing\bin\Debug\MyMirror-testing.pdb
+C:\Users\salim\OneDrive\Desktop\MyMirror\MyMirror-testing\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\salim\OneDrive\Desktop\MyMirror\MyMirror-testing\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\salim\OneDrive\Desktop\MyMirror\MyMirror-testing\bin\Debug\MyMirror-classes.dll
+C:\Users\salim\OneDrive\Desktop\MyMirror\MyMirror-testing\bin\Debug\MyMirror-classes.pdb
+C:\Users\salim\OneDrive\Desktop\MyMirror\MyMirror-testing\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\salim\OneDrive\Desktop\MyMirror\MyMirror-testing\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\salim\OneDrive\Desktop\MyMirror\MyMirror-testing\obj\Debug\MyMirror-testing.csprojAssemblyReference.cache
+C:\Users\salim\OneDrive\Desktop\MyMirror\MyMirror-testing\obj\Debug\MyMirror-testing.csproj.CoreCompileInputs.cache
+C:\Users\salim\OneDrive\Desktop\MyMirror\MyMirror-testing\obj\Debug\MyMirror-testing.csproj.CopyComplete
+C:\Users\salim\OneDrive\Desktop\MyMirror\MyMirror-testing\obj\Debug\MyMirror-testing.dll
+C:\Users\salim\OneDrive\Desktop\MyMirror\MyMirror-testing\obj\Debug\MyMirror-testing.pdb

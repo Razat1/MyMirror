@@ -1,0 +1,9 @@
+C:\Users\salim\OneDrive\Desktop\MyMirror\MyMirror-backoffice\bin\Debug\MyMirror-backoffice.exe.config
+C:\Users\salim\OneDrive\Desktop\MyMirror\MyMirror-backoffice\bin\Debug\MyMirror-backoffice.exe
+C:\Users\salim\OneDrive\Desktop\MyMirror\MyMirror-backoffice\bin\Debug\MyMirror-backoffice.pdb
+C:\Users\salim\OneDrive\Desktop\MyMirror\MyMirror-backoffice\obj\Debug\MyMirror-backoffice.csprojAssemblyReference.cache
+C:\Users\salim\OneDrive\Desktop\MyMirror\MyMirror-backoffice\obj\Debug\MyMirror_backoffice.Properties.Resources.resources
+C:\Users\salim\OneDrive\Desktop\MyMirror\MyMirror-backoffice\obj\Debug\MyMirror-backoffice.csproj.GenerateResource.cache
+C:\Users\salim\OneDrive\Desktop\MyMirror\MyMirror-backoffice\obj\Debug\MyMirror-backoffice.csproj.CoreCompileInputs.cache
+C:\Users\salim\OneDrive\Desktop\MyMirror\MyMirror-backoffice\obj\Debug\MyMirror-backoffice.exe
+C:\Users\salim\OneDrive\Desktop\MyMirror\MyMirror-backoffice\obj\Debug\MyMirror-backoffice.pdb

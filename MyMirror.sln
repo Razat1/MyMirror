@@ -1,36 +1,36 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.28307.645
+VisualStudioVersion = 15.0.28307.1062
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMirror-backoffice", "MyMirror-backoffice\MyMirror-backoffice.csproj", "{DD317875-4D36-4CBE-90B7-9C3BF7E66BD6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMirror-backoffice", "MyMirror-backoffice\MyMirror-backoffice.csproj", "{499956DF-D948-4EAC-A1C3-042578994944}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MyMirror-frontoffice", "MyMirror-frontoffice\", "{925CB920-F160-4F4D-8603-359746A17408}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MyMirror-frontoffice", "MyMirror-frontoffice\", "{613BAC6A-DD1A-4C0D-AEED-8355B09EFDE9}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
-		ProjectReferences = "{c4476ffb-321e-4652-b58a-4ca4b6685f3d}|MyMirror-classes.dll;"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_26981"
+		ProjectReferences = "{5f35a986-48c9-4042-901c-6f146e1faed1}|MyMirror-classes.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_57690"
 		Debug.AspNetCompiler.PhysicalPath = "MyMirror-frontoffice\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_26981\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57690\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_26981"
+		Release.AspNetCompiler.VirtualPath = "/localhost_57690"
 		Release.AspNetCompiler.PhysicalPath = "MyMirror-frontoffice\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_26981\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57690\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "26981"
+		VWDPort = "57690"
 		SlnRelativePath = "MyMirror-frontoffice\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMirror-classes", "MyMirror-classes\MyMirror-classes.csproj", "{C4476FFB-321E-4652-B58A-4CA4B6685F3D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMirror-classes", "MyMirror-classes\MyMirror-classes.csproj", "{5F35A986-48C9-4042-901C-6F146E1FAED1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMirror-testing", "MyMirror-testing\MyMirror-testing.csproj", "{F6DF81E6-087F-467E-815D-542ACD63CBE3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMirror-testing", "MyMirror-testing\MyMirror-testing.csproj", "{B70E2D05-375E-4095-8AE7-CAB7BD065C81}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,27 +38,27 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DD317875-4D36-4CBE-90B7-9C3BF7E66BD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DD317875-4D36-4CBE-90B7-9C3BF7E66BD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DD317875-4D36-4CBE-90B7-9C3BF7E66BD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DD317875-4D36-4CBE-90B7-9C3BF7E66BD6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{925CB920-F160-4F4D-8603-359746A17408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{925CB920-F160-4F4D-8603-359746A17408}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{925CB920-F160-4F4D-8603-359746A17408}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{925CB920-F160-4F4D-8603-359746A17408}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{C4476FFB-321E-4652-B58A-4CA4B6685F3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C4476FFB-321E-4652-B58A-4CA4B6685F3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C4476FFB-321E-4652-B58A-4CA4B6685F3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C4476FFB-321E-4652-B58A-4CA4B6685F3D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F6DF81E6-087F-467E-815D-542ACD63CBE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F6DF81E6-087F-467E-815D-542ACD63CBE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F6DF81E6-087F-467E-815D-542ACD63CBE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F6DF81E6-087F-467E-815D-542ACD63CBE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{499956DF-D948-4EAC-A1C3-042578994944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{499956DF-D948-4EAC-A1C3-042578994944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{499956DF-D948-4EAC-A1C3-042578994944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{499956DF-D948-4EAC-A1C3-042578994944}.Release|Any CPU.Build.0 = Release|Any CPU
+		{613BAC6A-DD1A-4C0D-AEED-8355B09EFDE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{613BAC6A-DD1A-4C0D-AEED-8355B09EFDE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{613BAC6A-DD1A-4C0D-AEED-8355B09EFDE9}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{613BAC6A-DD1A-4C0D-AEED-8355B09EFDE9}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{5F35A986-48C9-4042-901C-6F146E1FAED1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F35A986-48C9-4042-901C-6F146E1FAED1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F35A986-48C9-4042-901C-6F146E1FAED1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F35A986-48C9-4042-901C-6F146E1FAED1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B70E2D05-375E-4095-8AE7-CAB7BD065C81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B70E2D05-375E-4095-8AE7-CAB7BD065C81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B70E2D05-375E-4095-8AE7-CAB7BD065C81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B70E2D05-375E-4095-8AE7-CAB7BD065C81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {57A96889-6D92-4248-9113-150521D59B93}
+		SolutionGuid = {16394E90-8FA7-4FBC-88B4-FAE2C903475F}
 	EndGlobalSection
 EndGlobal

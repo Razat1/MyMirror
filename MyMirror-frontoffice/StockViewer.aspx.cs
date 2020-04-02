@@ -12,6 +12,6 @@ public partial class StockViewer : System.Web.UI.Page
     {
         clsStock Astock = new clsStock();
         Astock = (clsStock)Session["AStock"];
-        Response.Write(Astock.StockDes);
+        Response.Write(Astock.StockDescription);
     }
 }
