@@ -45,8 +45,9 @@ namespace MyMirror_classes
             //build up the connection string for the sql server database Visual Studio 2012
             //connectionString = "Data Source=(LocalDB)\\v11.0;AttachDbFilename=" + GetDBName() + ";Integrated Security=True;Connect Timeout=30";
             //connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"" + GetDBName() + "\";Integrated Security=True;Connect Timeout=30";
-            connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"###\";Integrated Security=True;Connect Timeout=30";
-            connectionString = connectionString.Replace("###", SomePath);
+            //connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"###\";Integrated Security=True;Connect Timeout=30";
+            //connectionString = connectionString.Replace("###", SomePath);
+            connectionString = "Data Source=mymirror.database.windows.net;User ID=mymirror2;Password=Mymirror5;Connect Timeout=30;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
             return connectionString;
         }
 
